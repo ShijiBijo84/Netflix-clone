@@ -1,0 +1,24 @@
+.row{
+    color: white;     
+}
+
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: flex-start;  /* Ensure items are aligned to the top */
+    justify-content: flex-start;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10PX;
+}
+
+.smallPoster {
+    max-height: 150px;
+    margin-right: 10px;
+}
